@@ -8,14 +8,21 @@ To suggest tweet content, open an issue in this repository and fill out the issu
 
 Tweets should be English, though linked content does not need to be English. You can attach images by uploading them to the issue and embedding them using the GitHub image syntax in the tweet content.
 
-A tweet does not need to be scheduled to a specific time. Please only schedule it to a specific time if the content is time-sensitive, like event notices or campaigns.
+#### Scheduling
+A tweet does not need to be scheduled to a specific time. Please only schedule it to a specific time if the content is time-sensitive, like event notices or campaigns. To schedule a tweet, add a `## Scheduled for` section with a date in the format of `DD.MM.YYYY HH:mm`. Example:
+ ```md
+ ## Scheduled for
+15.11.2017 18:00
+ ```
 
+#### Replying
 To reply to a tweet add a `## Reply to` section to the issues and paste the link to the tweet to reply to as its content. Example:
 ```md
 ## Reply to
 https://twitter.com/MozillaCH/status/917786667259482124
 ```
 
+#### Retweeting
 The template suggests a normal tweet by default, but you can also retweet a tweet by changing the `## Tweet Content` heading to `## Retweet` and pasting a link to the tweet to retweet as its contents. Example:
 ```md
 ## Retweet
