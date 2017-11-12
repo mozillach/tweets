@@ -16,7 +16,7 @@ A tweet does not need to be scheduled to a specific time. Please only schedule i
  ```
 
 #### Replying
-To reply to a tweet add a `## Reply to` section to the issues and paste the link to the tweet to reply to as its content. Example:
+To reply to a tweet add a `## Reply to` section to the issues and paste the link to the tweet to reply to as its content. The tweet most at least contain a mention to the account it is replying to. Example:
 ```md
 ## Reply to
 https://twitter.com/MozillaCH/status/917786667259482124
