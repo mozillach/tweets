@@ -5,7 +5,7 @@ about: New Tweet for twitter
 ---
 
 ## Content description
-_Description of the content and reasoning for posting it_
+_Description of the content and reasoning for posting it. Please check out the CONTRIBUTING.md, it explains the format that issues need to be in and how tweets are approved._
 
 ## Tweet Content
 _todo_
