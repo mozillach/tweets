@@ -14,5 +14,5 @@ jobs:
       - uses: qmacro/action-add-issue-to-project-column@db7699fcd3ce421dd179ca82102d41fec029ed2b
         with:
           project: Tweets
-          column: Backlog
+          column: Ideas
           token: ${{ secrets.GITHUB_TOKEN }}
