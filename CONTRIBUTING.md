@@ -6,9 +6,9 @@ This repository serves as a curation tool for the [@MozillaCH](https://twitter.c
 ### Open an issue
 To suggest tweet content, open an issue in this repository and fill out the issue template. The issue will be added to the "Ideas" column on our project board.
 
-Tweets should be English, though linked content does not need to be English. You can attach images by uploading them to the issue and embedding them using the GitHub image syntax in the tweet content.
+Tweets should be English, though linked content does not need to be English. Currently attaching images by uploading them to the issue and embedding them using the GitHub image syntax in the tweet content is not yet supported.
 
-#### Scheduling
+#### Scheduling (not yet supported)
 A tweet does not need to be scheduled to a specific time. Please only schedule it to a specific time if the content is time-sensitive, like event notices or campaigns. To schedule a tweet, add a `## Scheduled for` section with a date in the format of `DD.MM.YYYY HH:mm`. The time stamps are interpreted as UTC+1. Example:
  ```md
  ## Scheduled for
@@ -35,7 +35,7 @@ The service will assign the "ready" label, once your tweet satisfies the formati
 ### Getting tweeted
 Curators will now take over and first move the issue into the "Proofread" column and someone will be assigned to proof read it. Once that is done and potential spelling mistakes are fixed, the issue will finally be moved to "To Tweet" where it will be tweeted.
 
-## Automated tweet sources
+## Automated tweet sources (not yet supported)
 ### Mentions
 Mentions are automatically added to the "Needs Reaction" column and a curator is assigned to handle creation of a reply. It then moves through the same stages as a tweet submitted as idea.
 

@@ -1,0 +1,18 @@
+name: Add Issue to Board
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  repository-projects: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: qmacro/action-add-issue-to-project-column@db7699fcd3ce421dd179ca82102d41fec029ed2b
+        with:
+          project: Tweets
+          column: Ideas
+          token: ${{ secrets.GITHUB_TOKEN }}
